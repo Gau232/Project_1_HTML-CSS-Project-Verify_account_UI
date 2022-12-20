@@ -1,1 +1,80 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+html {
+    font-family:Roboto, sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.mainBox {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:3px solid black;
+    border-radius:10px;
+    height:300px;
+    width:480px;
+    padding:10px;
+    gap:23px;
+}
+
+h1 {
+    font-size:1.2rem;
+}
+  
+.topText {
+    font-size:0.7rem;
+    text-align:center;
+}
+  
+.form {
+    display:flex;
+    gap:10px;
+}
+
+input {
+    width:60px;
+    height:80px;
+    font-size:3rem;
+    text-align:center;
+    border:1px solid #dee2e6ea;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+input:hover {
+    border:2px solid #899ded;
+}
+
+input:focus {
+    outline: 2px solid rgba(80, 77, 237, 0.5);
+}
+
+input:valid {
+    border-color:#339af0;
+    box-shadow:0px 4px 4px rgba(83, 83, 83, 0.316);
+}
+
+/*input:invalid {
+    box-shadow:0px 5px 7px -3px rgba(241, 0, 0, 0.3);
+}*/
+
+.btmText {
+    width:60%;
+    font-size:0.6rem;
+    text-align:center;
+    background-color:rgba(239, 239, 239, 0.859);
+    color:rgba(102, 102, 102, 0.962);
+    padding:10px 10px;
+    border-radius:5px;
+}
